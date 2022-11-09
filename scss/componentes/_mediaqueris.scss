@@ -1,0 +1,106 @@
+/* LARGE SIZE */
+@media(min-width: 750px) {
+    .content {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    .contact-wrapper > * {
+        padding: 1em;
+    }
+    .contact-info{
+        text-align: left;
+    }
+}
+@media (max-width:750px) {
+    
+    .checkbtn{
+        display: block;
+        padding-bottom: 01px;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2a2a2a;
+        top: 80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        color: #f1f1f1;
+        font-style: 20px;
+        display: flex;        
+    }
+    li a:hover, li a.bIndex{
+        background: none;
+        color: rgba(218, 218, 218, 0.76);
+    }
+    #check:checked ~ ul{
+        left: 0;
+    } 
+    .divContacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .divBiografia{
+        display: flex;
+        flex-direction: column;
+    }
+    .h1Biografia{
+        display: flex;
+        justify-content: center;
+    }
+    .pBiografia{
+        display: flex;
+        justify-content: center;
+    }
+    .aBiografia{
+        color: #f1f1f1;
+    }
+    .divPortfolio{
+        display: flex;
+        flex-direction: column;
+    }
+    .aPortfolio{
+        color: #f1f1f1;
+    }
+    .contact-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-form form label {
+        display: block;
+    }
+
+    .contact-form form p {
+        margin: 0;
+        padding: 1em;
+    }
+    
+}
+@media (max-width:952px) {
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}

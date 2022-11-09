@@ -1,0 +1,20 @@
+.aPortfolio{
+    text-decoration: none;
+    color: #653402;
+}
+.bodyPortfolio{
+    background-image: url(../Imagenes/portfolio-2.jpg);
+}
+.divPortfolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 20px;
+}
+.h1Portfolio{
+    padding: 20px;
+}
+.pPortfolio{
+    padding: 20px;
+    color: rgb(70, 39, 2);
+}

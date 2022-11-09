@@ -5,3 +5,63 @@
     list-style: none;
     box-sizing: border-box;
 }
+.aIndex{
+    text-decoration: none;
+    color: #0c0b0b;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    li{ 
+        list-style-type: none;
+        color: antiquewhite; 
+        padding: 7px 13px;
+        font-size: 20px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+    li a.aIndex, li a:hover{
+        background: #e6e3e34d;
+        transition: .5s;
+    }
+}
+
+body{
+    background-image: url(../Imagenes/Inicio.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    font-family: 'Charis SIL', serif;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+section{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: 'Charis SIL', serif;
+    font-family: 'Quicksand', sans-serif; 
+}
+h1{    
+    justify-content: center;
+    align-items: center;    
+}
+
+nav{
+    background-color: rgba(241, 224, 202, 0.185);
+    padding: 30px;
+    height: 80px;   
+}
+.enlace{
+    position: absolute;
+    padding: 0px 20px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}

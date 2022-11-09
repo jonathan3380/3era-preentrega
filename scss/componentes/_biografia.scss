@@ -1,0 +1,23 @@
+.aBiografia{
+    text-decoration: none;
+    color: #653402;
+}
+.divBiografia{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 20px;
+}
+.h1Biografia{
+    color: white;
+    padding: 25px;
+    
+}
+.pBiografia{
+    color: white;
+    padding: 25px;
+}
+
+.bodyBiografia{
+    background-image: url(../Imagenes/fotografia_biografia.jpg);
+}
