@@ -1,4 +1,5 @@
 .bodyContacto {
+    background-image: url(../Imagenes/Contacto.jpg) ;
     background: #18181870;
     color: #fff;
     line-height: 1.6;
@@ -21,11 +22,12 @@ ul {
 .logoContacto {
     text-align: center;
     font-size: 2em;
+    .logoContacto span {
+        color: #B70E21;
+    }
 }
 
-.logoContacto span {
-    color: #B70E21;
-}
+
 
 .contact-wrapper {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
@@ -70,7 +72,7 @@ ul {
     
     .contact-form form button:hover,
     .contact-form form button:focus {
-        background: #d63031;
+        background: #4f1818;
         color: #fff;
         transition: background-color 1s ease-out;
         outline: 0;
@@ -82,7 +84,7 @@ ul {
     
     /* CONTACT INFO */
     .contact-info {
-        background: rgba(0, 0, 0, 0.8);
+        background: rgba(20, 19, 19, 0.799);
     }
     
     .contact-info h4, .contact-info ul, .contact-info p {
@@ -91,12 +93,12 @@ ul {
     }
     
     
-    .divContacto{
+    /*.divContacto{
         display: flex;
         flex-direction: row;
         justify-content: end;
         padding: 20px;
-    }
+    }*/
     .h1Contacto{
         color: white;
         padding: 25px;
@@ -107,7 +109,7 @@ ul {
     }   
     
 .bodyContacto{
-    background-image: url(../Imagenes/Contacto.jpg) ;
+    
       
 }
  

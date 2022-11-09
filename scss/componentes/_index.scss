@@ -7,7 +7,7 @@
 }
 .aIndex{
     text-decoration: none;
-    color: #0c0b0b;
+    color: $colorNegro;
 }
 ul{
     display: flex;
@@ -15,9 +15,9 @@ ul{
     justify-content: end;
     li{ 
         list-style-type: none;
-        color: antiquewhite; 
+        color: $colorCrema;
         padding: 7px 13px;
-        font-size: 20px;
+        font-size: $medium;
         border-radius: 3px;
         text-transform: uppercase;
     }
@@ -39,7 +39,7 @@ body{
 }
 
 section{
-    color: white;
+    color: $colorBlanco;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -54,14 +54,14 @@ h1{
 
 nav{
     background-color: rgba(241, 224, 202, 0.185);
-    padding: 30px;
+    padding: $large;
     height: 80px;   
 }
 .enlace{
     position: absolute;
-    padding: 0px 20px;
+    padding: 0px $large;
 }
 .logo{
-    height: 50px;
-    width: 50px;
+    height: $xxLarge;
+    width: $xxLarge;
 }
