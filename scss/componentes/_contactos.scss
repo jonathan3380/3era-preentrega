@@ -1,5 +1,5 @@
 .bodyContacto {
-    background-image: url(../Imagenes/Contacto.jpg) ;
+    background-image: url(../Imagenes/Contacto.jpg) !important ;
     background: #18181870;
     color: #fff;
     line-height: 1.6;
@@ -22,11 +22,11 @@ ul {
 .logoContacto {
     text-align: center;
     font-size: 2em;
-    .logoContacto span {
-        color: #B70E21;
-    }
+    
 }
-
+.logoContacto span {
+    color: #B70E21;
+}
 
 
 .contact-wrapper {

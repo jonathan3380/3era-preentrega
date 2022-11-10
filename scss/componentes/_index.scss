@@ -40,8 +40,7 @@ body{
 
 section{
     color: $colorBlanco;
-    display: flex;
-    flex-direction: column;
+    @extend %display;
     align-content: center;
     flex-wrap: wrap;
     font-family: 'Charis SIL', serif;

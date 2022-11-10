@@ -12,6 +12,239 @@
   display: none;
 }
 
+.bodyPortfolio .divPortfolio, section {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.aIndex {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+ul li {
+  list-style-type: none;
+  color: antiquewhite;
+  padding: 7px 13px;
+  font-size: 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+ul li a.aIndex, ul li a:hover {
+  background: rgba(230, 227, 227, 0.3019607843);
+  transition: 0.5s;
+}
+
+body {
+  background-image: url(../Imagenes/Inicio.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  font-family: "Charis SIL", serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+section {
+  color: white;
+  align-content: center;
+  flex-wrap: wrap;
+  font-family: "Charis SIL", serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: rgba(241, 224, 202, 0.185);
+  padding: 30px;
+  height: 80px;
+}
+
+.enlace {
+  position: absolute;
+  padding: 0px 30px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.bodyPortfolio {
+  background-image: url(../Imagenes/portfolio-2.jpg);
+}
+.bodyPortfolio .aPortfolio {
+  text-decoration: none;
+  color: white;
+}
+.bodyPortfolio .divPortfolio {
+  justify-content: end;
+  padding: 20px;
+}
+.bodyPortfolio .divPortfolio .h1Portfolio {
+  padding: 20px;
+}
+.bodyPortfolio .divPortfolio .pPortfolio {
+  padding: 20px;
+  color: black;
+}
+
+.aBiografia {
+  text-decoration: none;
+  color: #653402;
+}
+
+.divBiografia {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 20px;
+}
+
+.h1Biografia {
+  color: white;
+  padding: 25px;
+}
+
+.pBiografia {
+  color: white;
+  padding: 25px;
+}
+
+.bodyBiografia {
+  background-image: url(../Imagenes/fotografia_biografia.jpg);
+}
+
+.bodyContacto {
+  background-image: url(../Imagenes/Contacto.jpg) !important;
+  background: rgba(24, 24, 24, 0.4392156863);
+  color: #fff;
+  line-height: 1.6;
+  font-family: "Quicksand", sans-serif;
+  padding: 0 4em;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.logoContacto {
+  text-align: center;
+  font-size: 2em;
+}
+
+.logoContacto span {
+  color: #B70E21;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.contact-wrapper > * {
+  padding: 2em;
+}
+
+.contact-form {
+  background: rgba(34, 34, 34, 0.831372549);
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+  text-align: left;
+}
+
+.contact-form form .block {
+  grid-column: 1/3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #d63031;
+}
+
+.contact-form form button {
+  background: #B70E21;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #4f1818;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
+.aContacto {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+/* CONTACT INFO */
+.contact-info {
+  background: rgba(20, 19, 19, 0.799);
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+/*.divContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 20px;
+}*/
+.h1Contacto {
+  color: white;
+  padding: 25px;
+}
+
+.h2Contacto {
+  color: white;
+  padding: 50px;
+}
+
 /* LARGE SIZE */
 @media (min-width: 750px) {
   .content {
@@ -122,236 +355,6 @@
   nav ul li a {
     font-size: 16px;
   }
-}
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
-
-.aIndex {
-  text-decoration: none;
-  color: black;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-}
-ul li {
-  list-style-type: none;
-  color: antiquewhite;
-  padding: 7px 13px;
-  font-size: 20px;
-  border-radius: 3px;
-  text-transform: uppercase;
-}
-ul li a.aIndex, ul li a:hover {
-  background: rgba(230, 227, 227, 0.3019607843);
-  transition: 0.5s;
-}
-
-body {
-  background-image: url(../Imagenes/Inicio.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  margin: 0px;
-  font-family: "Charis SIL", serif;
-  font-family: "Quicksand", sans-serif;
-}
-
-section {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  flex-wrap: wrap;
-  font-family: "Charis SIL", serif;
-  font-family: "Quicksand", sans-serif;
-}
-
-h1 {
-  justify-content: center;
-  align-items: center;
-}
-
-nav {
-  background-color: rgba(241, 224, 202, 0.185);
-  padding: 30px;
-  height: 80px;
-}
-
-.enlace {
-  position: absolute;
-  padding: 0px 30px;
-}
-
-.logo {
-  height: 50px;
-  width: 50px;
-}
-
-.bodyPortfolio {
-  background-image: url(../Imagenes/portfolio-2.jpg);
-}
-.bodyPortfolio .aPortfolio {
-  text-decoration: none;
-  color: white;
-}
-.bodyPortfolio .divPortfolio {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  padding: 20px;
-}
-.bodyPortfolio .divPortfolio .h1Portfolio {
-  padding: 20px;
-}
-.bodyPortfolio .divPortfolio .pPortfolio {
-  padding: 20px;
-  color: black;
-}
-
-.aBiografia {
-  text-decoration: none;
-  color: #653402;
-}
-
-.divBiografia {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  padding: 20px;
-}
-
-.h1Biografia {
-  color: white;
-  padding: 25px;
-}
-
-.pBiografia {
-  color: white;
-  padding: 25px;
-}
-
-.bodyBiografia {
-  background-image: url(../Imagenes/fotografia_biografia.jpg);
-}
-
-.bodyContacto {
-  background-image: url(../Imagenes/Contacto.jpg);
-  background: rgba(24, 24, 24, 0.4392156863);
-  color: #fff;
-  line-height: 1.6;
-  font-family: "Quicksand", sans-serif;
-  padding: 0 4em;
-}
-
-.container {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.5em;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-.logoContacto {
-  text-align: center;
-  font-size: 2em;
-}
-.logoContacto .logoContacto span {
-  color: #B70E21;
-}
-
-.contact-wrapper {
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-
-.contact-wrapper > * {
-  padding: 2em;
-}
-
-.contact-form {
-  background: rgba(34, 34, 34, 0.831372549);
-}
-
-.contact-info h4,
-.contact-info ul,
-.contact-info p {
-  text-align: left;
-}
-
-.contact-form form .block {
-  grid-column: 1/3;
-}
-
-.contact-form form button,
-.contact-form form input,
-.contact-form form textarea {
-  width: 100%;
-  padding: 0.7em;
-  border: none;
-  background: none;
-  outline: 0;
-  color: #fff;
-  border-bottom: 1px solid #d63031;
-}
-
-.contact-form form button {
-  background: #B70E21;
-  border: 0;
-  text-transform: uppercase;
-  padding: 1em;
-}
-
-.contact-form form button:hover,
-.contact-form form button:focus {
-  background: #4f1818;
-  color: #fff;
-  transition: background-color 1s ease-out;
-  outline: 0;
-}
-
-.aContacto {
-  text-decoration: none;
-  color: #f1f1f1;
-}
-
-/* CONTACT INFO */
-.contact-info {
-  background: rgba(20, 19, 19, 0.799);
-}
-
-.contact-info h4, .contact-info ul, .contact-info p {
-  text-align: center;
-  margin: 0 0 1rem 0;
-}
-
-/*.divContacto{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    padding: 20px;
-}*/
-.h1Contacto {
-  color: white;
-  padding: 25px;
-}
-
-.h2Contacto {
-  color: white;
-  padding: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

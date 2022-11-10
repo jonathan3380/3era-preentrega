@@ -6,8 +6,7 @@
         color: $colorBlanco;
     }
     .divPortfolio{
-        display: flex;
-        flex-direction: column;
+        @extend %display;
         justify-content: end;
         padding: $medium;
         .h1Portfolio{
