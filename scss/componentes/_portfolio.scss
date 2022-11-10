@@ -3,11 +3,11 @@
     background-image: url(../Imagenes/portfolio-2.jpg);
     .aPortfolio{
         text-decoration: none;
-        color: #653402;
+        color: $colorBlanco;
     }
     .divPortfolio{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: end;
         padding: $medium;
         .h1Portfolio{
@@ -15,8 +15,7 @@
         }
         .pPortfolio{
             padding: $medium;
-            color: rgb(70, 39, 2);
+            color: $colorNegro;
         }
-    }
-    
+    }  
 }

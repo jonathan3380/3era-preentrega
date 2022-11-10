@@ -30,8 +30,8 @@
         text-align: center;
         transition: all .5s;
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
         align-items: center;
     }
     nav ul li{
@@ -73,6 +73,15 @@
     .divPortfolio{
         display: flex;
         flex-direction: column;
+    }
+    .pPortfolio{
+        display: flex;
+        justify-content: center;
+        color: $colorBlanco !important;
+    }
+    .h1Portfolio{
+        display: flex;
+        justify-content: center;
     }
     .aPortfolio{
         color: #f1f1f1;
