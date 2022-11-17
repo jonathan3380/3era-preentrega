@@ -27,6 +27,7 @@ ul{
     }
 }
 body{
+    background-image: url(../Imagenes/inicio.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -35,17 +36,6 @@ body{
     font-family: 'Charis SIL', serif;
     font-family: 'Quicksand', sans-serif;  
 }
-.bodyIndex{
-    background-image: url(../Imagenes/inicio.jpg) !important ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    margin: 0px;
-    font-family: 'Charis SIL', serif;
-    font-family: 'Quicksand', sans-serif; 
-}
-
 section{
     color: $colorBlanco;
     @extend %display;
