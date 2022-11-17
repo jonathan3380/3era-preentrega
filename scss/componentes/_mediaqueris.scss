@@ -14,6 +14,51 @@
         text-align: left;
     }
 }
+@media (min-width:750px ) {
+
+    .contenedorPortfolio{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 250px;
+        padding: 10px;
+        grid-gap: 5px;
+    }
+    .galeriaPortfolio:nth-child(2){
+        grid-column-start: span 1;
+    }
+    .galeriaPortfolio:nth-child(4){
+        grid-column-start: span 1;
+        grid-row-start: span 2;
+    }
+    .galeriaPortfolio:nth-child(7){
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+    .galeriaPortfolio:nth-child(10){
+       grid-row-start: span 2;
+       grid-column-start: span 2;
+    }  
+    .galeriaPortfolio:nth-child(11){
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+    .galeriaPortfolio:nth-child(13){
+        grid-column-start: span 1;
+        grid-row-start: span 2;
+    }
+    .galeriaPortfolio:nth-child(14){
+        grid-column-start: span 1;
+        grid-row-start: span 2;
+    }
+    .galeriaPortfolio:nth-child(16){
+        grid-column-start: span 1;
+        grid-row-start: span 2;
+    }
+    .galeriaPortfolio:nth-child(17){
+        grid-column-start: span 1;
+        grid-row-start: span 2;
+    }
+}
 @media (max-width:750px) {
     
     .checkbtn {
@@ -103,13 +148,54 @@
         margin: 0;
         padding: 1em;
     }
-    
 }
-@media (max-width:952px) {
+@media (min-width:1024px){
+    .contenedorPortfolio{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 250px;
+        padding: 20px;
+        grid-gap: 10px;
+    }
+    .galeriaImgPortfolio{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .galeriaPortfolio:nth-child(2){
+        grid-column-start: span 2;
+        
+    }
+    .galeriaPortfolio:nth-child(10){
+        grid-column-start: span 2;
+        grid-row-start: span 2;
+    }
+    .galeriaPortfolio:nth-child(4){
+        grid-column-start: span 2;
+        grid-row-start: span 2;
+    }
+    .galeriaPortfolio:nth-child(13){
+        grid-row-start: span 2;
+    }
+    .galeriaPortfolio:nth-child(14){
+        grid-row-start: span 2;
+    }
+    .galeriaPortfolio:nth-child(16){
+        grid-row-start: span 2;
+    }
+    .galeriaPortfolio:nth-child(17){
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+}
+    
+
+@media (max-width:1024px) {
     .enlace{
         padding-left: 20px;
     }
     nav ul li a{
         font-size: 16px;
     }
+    
 }
