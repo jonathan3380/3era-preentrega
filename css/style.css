@@ -49,7 +49,17 @@ ul li a.aIndex, ul li a:hover {
 }
 
 body {
-  background-image: url(../Imagenes/Inicio.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  font-family: "Charis SIL", serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+.bodyIndex {
+  background-image: url(../Imagenes/inicio.jpg) !important;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -89,7 +99,7 @@ nav {
 }
 
 .bodyPortfolio {
-  background-image: white;
+  background-image: rgb(104, 102, 102) !important;
 }
 .bodyPortfolio .divPortfolio {
   justify-content: end;
@@ -117,7 +127,7 @@ nav {
 
 .aBiografia {
   text-decoration: none;
-  color: #653402;
+  color: #fffefd;
 }
 
 .divBiografia {
@@ -138,7 +148,7 @@ nav {
 }
 
 .bodyBiografia {
-  background-image: url(../Imagenes/fotografia_biografia.jpg);
+  background-image: url(../Imagenes/fondo-negro1.jpg);
 }
 
 .bodyContacto {
@@ -331,10 +341,15 @@ ul {
     justify-content: flex-start !important;
     align-items: center;
   }
+  .fotoBiografia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   nav ul li {
     display: block;
     margin: 50px 0;
-    line-height: 25px;
+    line-height: 20px;
   }
   nav ul li a {
     color: #f1f1f1;
@@ -386,6 +401,7 @@ ul {
   .contact-wrapper {
     display: flex;
     flex-direction: column;
+    margin: 25px;
   }
   .contact-form form {
     display: grid;
