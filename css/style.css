@@ -27,7 +27,7 @@
 
 .aIndex {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 ul {
@@ -48,29 +48,26 @@ ul li a.aIndex, ul li a:hover {
   transition: 0.5s;
 }
 
-body {
+.bodyIndex {
+  background-image: url(/Imagenes/imagen_inicio.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 0px;
-  font-family: "Charis SIL", serif;
-  font-family: "Quicksand", sans-serif;
 }
 
-.bodyIndex {
-  background-image: url(../Imagenes/inicio.jpg) !important;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+body {
   margin: 0px;
+  text-decoration: none;
   font-family: "Charis SIL", serif;
   font-family: "Quicksand", sans-serif;
 }
 
 section {
   color: white;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
   align-content: center;
   flex-wrap: wrap;
   font-family: "Charis SIL", serif;
@@ -80,6 +77,10 @@ section {
 h1 {
   justify-content: center;
   align-items: center;
+}
+
+.bIndex {
+  list-style: none;
 }
 
 nav {
@@ -98,24 +99,31 @@ nav {
   width: 50px;
 }
 
+footer {
+  color: white;
+  display: flex;
+  text-align: end;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+
 .bodyPortfolio {
-  background-image: rgb(104, 102, 102) !important;
+  background-color: rgb(17, 6, 21);
 }
 .bodyPortfolio .divPortfolio {
   justify-content: end;
   padding: 20px;
+  width: 100%;
 }
 .bodyPortfolio .divPortfolio .h1Portfolio {
   padding: 20px;
-}
-.bodyPortfolio .divPortfolio .pPortfolio {
-  padding: 20px;
-  color: black;
+  color: white;
 }
 
 .aPortfolio {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 /*estilos de las imagenes*/
@@ -132,9 +140,10 @@ nav {
 
 .divBiografia {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: end;
   padding: 20px;
+  align-items: center;
 }
 
 .h1Biografia {
@@ -148,11 +157,11 @@ nav {
 }
 
 .bodyBiografia {
-  background-image: url(../Imagenes/fondo-negro1.jpg);
+  background-color: rgb(17, 6, 21);
 }
 
 .bodyContacto {
-  background-image: url(../Imagenes/Contacto.jpg) !important;
+  background-color: rgb(17, 6, 21);
   color: #fff;
   line-height: 1.6;
   font-family: "Quicksand", sans-serif;
@@ -341,11 +350,6 @@ ul {
     justify-content: flex-start !important;
     align-items: center;
   }
-  .fotoBiografia {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   nav ul li {
     display: block;
     margin: 50px 0;
@@ -366,10 +370,18 @@ ul {
   .divContacto {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   .divBiografia {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .fotoBiografia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .h1Biografia {
     display: flex;
@@ -385,11 +397,15 @@ ul {
   .divPortfolio {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .pPortfolio {
     display: flex;
     justify-content: center;
     color: white !important;
+  }
+  .galeriaImgPortfolio {
+    padding: 10px;
   }
   .h1Portfolio {
     display: flex;
@@ -451,6 +467,18 @@ ul {
   .galeriaPortfolio:nth-child(17) {
     grid-column-start: span 1;
     grid-row-start: span 1;
+  }
+  .divBiografia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    padding: 50px;
+    box-shadow: none;
   }
 }
 @media (max-width: 1024px) {

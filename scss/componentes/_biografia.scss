@@ -4,9 +4,11 @@
 }
 .divBiografia{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: end;
     padding: 20px;
+    align-items: center;
+    
 }
 .h1Biografia{
     color: white;
@@ -19,5 +21,5 @@
 }
 
 .bodyBiografia{
-    background-image: url(../Imagenes/fondo-negro1.jpg);
+    background-color: $colorVioleta;
 }

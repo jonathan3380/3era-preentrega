@@ -79,11 +79,7 @@
         justify-content: flex-start !important  ;
         align-items: center;
     }
-    .fotoBiografia{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    
     nav ul li{
         display: block;
         margin: 50px 0;
@@ -104,18 +100,28 @@
     .divContacto{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .divBiografia{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .fotoBiografia{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .h1Biografia{
         display: flex;
         justify-content: center;
+        
     }
     .pBiografia{
         display: flex;
         justify-content: center;
+        
     }
     .aBiografia{
         color: #f1f1f1;
@@ -123,12 +129,16 @@
     .divPortfolio{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .pPortfolio{
         display: flex;
         justify-content: center;
         color: $colorBlanco !important;
     }
+    .galeriaImgPortfolio{
+        padding: 10px; 
+     }
     .h1Portfolio{
         display: flex;
         justify-content: center;
@@ -192,6 +202,18 @@
     .galeriaPortfolio:nth-child(17){
         grid-column-start: span 1;
         grid-row-start: span 1;
+    }
+    .divBiografia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+        padding: 50px;
+        box-shadow: none;
     }
 }
     

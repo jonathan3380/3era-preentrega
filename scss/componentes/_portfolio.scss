@@ -1,6 +1,6 @@
 
 .bodyPortfolio{
-    background-image: rgb(104, 102, 102) !important;
+    background-color: $colorVioleta;
     
     
    
@@ -8,22 +8,22 @@
         @extend %display;
         justify-content: end;
         padding: $medium;
+        width: 100%;
         .h1Portfolio{
             padding: $medium;
+            color: $colorBlanco;
         }
-        .pPortfolio{
-            padding: $medium;
-            color: $colorNegro;
-        }
+        
     }  
 }
 .aPortfolio{
     text-decoration: none;
-    color: $colorNegro;
+    color: $colorBlanco;
 }
 /*estilos de las imagenes*/
 .galeriaImgPortfolio{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 }

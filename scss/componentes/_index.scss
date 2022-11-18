@@ -7,7 +7,7 @@
 }
 .aIndex{
     text-decoration: none;
-    color: $colorNegro;
+    color: $colorBlanco;
 }
 ul{
     display: flex;
@@ -24,21 +24,28 @@ ul{
     li a.aIndex, li a:hover{
         background: #e6e3e34d;
         transition: .5s;
+        
     }
 }
-body{
-    background-image: url(../Imagenes/inicio.jpg);
+.bodyIndex{
+    background-image: url(/Imagenes/imagen_inicio.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+}
+body{
     margin: 0px;
+    text-decoration: none;
     font-family: 'Charis SIL', serif;
     font-family: 'Quicksand', sans-serif;  
 }
 section{
     color: $colorBlanco;
     @extend %display;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
     align-content: center;
     flex-wrap: wrap;
     font-family: 'Charis SIL', serif;
@@ -48,7 +55,9 @@ h1{
     justify-content: center;
     align-items: center;    
 }
-
+.bIndex{
+    list-style: none;
+}
 nav{
     background-color: rgba(241, 224, 202, 0.185);
     padding: $large;
@@ -61,4 +70,12 @@ nav{
 .logo{
     height: $xxLarge;
     width: $xxLarge;
+}
+footer{
+    color: $colorBlanco;
+    display: flex;
+    text-align: end;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: nowrap;
 }
