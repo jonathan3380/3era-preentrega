@@ -49,7 +49,7 @@ ul li a.aIndex, ul li a:hover {
 }
 
 .bodyIndex {
-  background-image: url(/Imagenes/imagen_inicio.jpg);
+  background-image: url(../Imagenes/inicio.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
