@@ -66,6 +66,7 @@ body {
 section {
   color: white;
   height: 80vh;
+  width: 100%;
   justify-content: center;
   align-items: center;
   align-content: center;
