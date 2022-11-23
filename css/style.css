@@ -56,7 +56,7 @@ ul li a.aIndex, ul li a:hover {
 }
 
 body {
-  background-image: url(../Imagenes/inicio.jpg) !important;
+  background-image: url(/Imagenes/Inicio.jpg) !important;
   margin: 0px;
   text-decoration: none;
   font-family: "Charis SIL", serif;
