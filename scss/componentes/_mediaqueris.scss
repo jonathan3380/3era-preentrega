@@ -14,7 +14,7 @@
         text-align: left;
     }
     section{
-        height: 76vh;
+        height: 78vh;
     }
 }
 @media (min-width:750px ) {
@@ -25,6 +25,9 @@
         grid-auto-rows: 250px;
         padding: 10px;
         grid-gap: 5px;
+    }
+    .content{
+        padding-top: 90px;
     }
     .galeriaPortfolio:nth-child(2){
         grid-column-start: span 1;
@@ -189,7 +192,7 @@
         grid-gap: 10px;
     }
     section{
-        height: 75vh;
+        height: 77vh;
     }
     .fotoBiografia{
         width: 50%;
