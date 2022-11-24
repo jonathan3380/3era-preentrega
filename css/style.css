@@ -49,6 +49,7 @@ ul li a.aIndex, ul li a:hover {
 }
 
 .bodyIndex {
+  background-image: url(/Imagenes/Inicio.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -56,7 +57,6 @@ ul li a.aIndex, ul li a:hover {
 }
 
 body {
-  background-image: url(/Imagenes/Inicio.jpg);
   margin: 0px;
   text-decoration: none;
   font-family: "Charis SIL", serif;
@@ -65,7 +65,7 @@ body {
 
 section {
   color: white;
-  height: 80vh;
+  height: 73vh;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -104,10 +104,11 @@ footer {
   background-color: rgba(0, 0, 0, 0.639);
   color: white;
   display: flex;
-  text-align: end;
+  text-align: center;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: center;
   flex-wrap: nowrap;
+  height: 10vh;
 }
 
 .bodyPortfolio {
@@ -288,6 +289,9 @@ ul {
   .contact-info {
     text-align: left;
   }
+  section {
+    height: 76vh;
+  }
 }
 @media (min-width: 750px) {
   .contenedorPortfolio {
@@ -380,6 +384,9 @@ ul {
     width: 100%;
     text-align: center;
   }
+  nav {
+    height: 17vh;
+  }
   .fotoBiografia {
     display: flex;
     align-items: center;
@@ -432,6 +439,16 @@ ul {
     margin: 0;
     padding: 1em;
   }
+  footer {
+    background-color: rgba(0, 0, 0, 0.639);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 10vh;
+  }
 }
 @media (min-width: 1024px) {
   .contenedorPortfolio {
@@ -440,6 +457,12 @@ ul {
     grid-auto-rows: 250px;
     padding: 20px;
     grid-gap: 10px;
+  }
+  section {
+    height: 75vh;
+  }
+  .fotoBiografia {
+    width: 50%;
   }
   .galeriaImgPortfolio {
     width: 100%;
@@ -481,6 +504,16 @@ ul {
     margin: 25px;
     padding: 50px;
     box-shadow: none;
+  }
+  footer {
+    background-color: rgba(0, 0, 0, 0.639);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 11vh;
   }
 }
 @media (max-width: 1024px) {

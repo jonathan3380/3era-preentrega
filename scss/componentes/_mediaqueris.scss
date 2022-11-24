@@ -13,6 +13,9 @@
     .contact-info{
         text-align: left;
     }
+    section{
+        height: 76vh;
+    }
 }
 @media (min-width:750px ) {
 
@@ -79,7 +82,6 @@
         justify-content: flex-start !important  ;
         align-items: center;
     }
-    
     nav ul li{
         display: block;
         margin: 50px 0;
@@ -107,6 +109,9 @@
         flex-direction: column;
         width: 100%;
         text-align: center;
+    }
+    nav{
+        height: 17vh;
     }
     .fotoBiografia{
         display: flex;
@@ -164,6 +169,16 @@
         margin: 0;
         padding: 1em;
     }
+    footer{
+        background-color: rgba(0, 0, 0, 0.639);
+        color: $colorBlanco;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        height: 10vh;
+    }
 }
 @media (min-width:1024px){
     .contenedorPortfolio{
@@ -172,6 +187,12 @@
         grid-auto-rows: 250px;
         padding: 20px;
         grid-gap: 10px;
+    }
+    section{
+        height: 75vh;
+    }
+    .fotoBiografia{
+        width: 50%;
     }
     .galeriaImgPortfolio{
         width: 100%;
@@ -215,15 +236,23 @@
         padding: 50px;
         box-shadow: none;
     }
+    footer{
+        background-color: rgba(0, 0, 0, 0.639);
+        color: $colorBlanco;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        height: 11vh;
+    }
 }
-    
-
 @media (max-width:1024px) {
     .enlace{
         padding-left: 20px;
     }
     nav ul li a{
         font-size: 16px;
-    }
+    }   
     
 }

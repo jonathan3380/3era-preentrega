@@ -28,13 +28,14 @@ ul{
     }
 }
 .bodyIndex{
+    background-image: url(/Imagenes/Inicio.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
 body{
-    background-image: url(/Imagenes/Inicio.jpg);
+    
     margin: 0px;
     text-decoration: none;
     font-family: 'Charis SIL', serif;
@@ -43,7 +44,7 @@ body{
 section{
     color: $colorBlanco;
     @extend %display;
-    height: 80vh;
+    height: 73vh;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -76,8 +77,9 @@ footer{
     background-color: rgba(0, 0, 0, 0.639);
     color: $colorBlanco;
     display: flex;
-    text-align: end;
+    text-align: center;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
     flex-wrap: nowrap;
+    height: 10vh;
 }
