@@ -22,13 +22,13 @@ ul{
         text-transform: uppercase;
     }   
 }
-.bodyIndex{
+/*.bodyIndex{
     background-image: url(/Imagenes/Inicio.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-}
+}*/
 body{
     display: flex;
     flex-direction: column;
@@ -40,6 +40,7 @@ body{
     font-family: 'Quicksand', sans-serif;  
 }
 section{
+    background-color: $colorVioleta;
     color: $colorBlanco;
     @extend %display;
     height: 80vh;
@@ -59,7 +60,7 @@ h1{
     list-style: none;
 }
 nav{
-    background-color: rgba(189, 156, 124, 0.92);
+    background-color: rgba(32, 38, 63, 0.799);
     padding: $large;
     height: auto;   
 }
@@ -72,7 +73,7 @@ nav{
     width: $xxLarge;
 }
 footer{
-    background-color: rgba(0, 0, 0, 0.639);
+    background-color: rgba(32, 38, 63, 0.799);
     color: $colorBlanco;
     display: flex;
     text-align: center;
