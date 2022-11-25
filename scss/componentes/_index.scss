@@ -76,5 +76,22 @@ footer{
     justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
-    height: 10vh;
+    height: 11vh;
+    ol{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 70%;
+        justify-content: space-evenly;
+        
+    }
+    .instagram{
+        color: white;
+        height: 100px;
+        width: 100px;
+    }
+    ol li a{
+        width: 20px;
+        height: 20px;
+    }
 }

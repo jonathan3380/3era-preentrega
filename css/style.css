@@ -104,7 +104,23 @@ footer {
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
-  height: 10vh;
+  height: 11vh;
+}
+footer ol {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  justify-content: space-evenly;
+}
+footer .instagram {
+  color: white;
+  height: 100px;
+  width: 100px;
+}
+footer ol li a {
+  width: 20px;
+  height: 20px;
 }
 
 .bodyPortfolio {
@@ -384,7 +400,17 @@ ul {
     text-align: center;
   }
   nav {
-    height: 17vh;
+    height: 15vh;
+  }
+  section {
+    height: 68vh;
+  }
+  ol {
+    display: flex;
+    flex-direction: column !important;
+  }
+  ol li {
+    padding: 3px;
   }
   .fotoBiografia {
     display: flex;
@@ -446,7 +472,8 @@ ul {
     justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
-    height: 10vh;
+    height: 17vh;
+    flex-direction: column;
   }
 }
 @media (min-width: 1024px) {
@@ -504,7 +531,7 @@ ul {
     padding: 50px;
     box-shadow: none;
   }
-  footer {
+  footer footer {
     background-color: rgba(0, 0, 0, 0.639);
     color: white;
     display: flex;
@@ -512,7 +539,8 @@ ul {
     justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
-    height: 11vh;
+    height: 10vh;
+    flex-direction: column;
   }
 }
 @media (max-width: 1024px) {
