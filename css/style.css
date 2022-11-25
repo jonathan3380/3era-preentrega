@@ -53,6 +53,9 @@ ul li {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   margin: 0px;
   text-decoration: none;
   font-family: "Charis SIL", serif;
@@ -61,7 +64,7 @@ body {
 
 section {
   color: white;
-  height: 73vh;
+  height: 80vh;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -81,7 +84,7 @@ h1 {
 }
 
 nav {
-  background-color: rgba(241, 224, 202, 0.185);
+  background-color: rgba(189, 156, 124, 0.92);
   padding: 30px;
   height: auto;
 }
@@ -104,7 +107,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
-  height: 11vh;
+  height: 14vh;
 }
 footer ol {
   display: flex;
@@ -302,7 +305,7 @@ ul {
     text-align: left;
   }
   section {
-    height: 78vh;
+    height: 77vh;
   }
 }
 @media (min-width: 750px) {
@@ -403,7 +406,7 @@ ul {
     height: 15vh;
   }
   section {
-    height: 68vh;
+    height: 65vh;
   }
   ol {
     display: flex;
@@ -472,7 +475,7 @@ ul {
     justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
-    height: 17vh;
+    height: 20vh;
     flex-direction: column;
   }
 }
@@ -485,7 +488,7 @@ ul {
     grid-gap: 10px;
   }
   section {
-    height: 77vh;
+    height: 74vh;
   }
   .fotoBiografia {
     width: 50%;
